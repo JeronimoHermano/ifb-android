@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppAula7</string>
+    <string name="editar">Editar curso</string>
+    <string name="excluir">Excluir curso</string>
+    <string name="ajuda">Ajuda</string>
+</resources>

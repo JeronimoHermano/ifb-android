@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppAula5</string>
+    <string name="btn_linear">Layout Linear</string>
+    <string name="texto_botao1">Enviar</string>
+    <string name="titulo_linear">Linear</string>
+    <string name="titulo_constraint">Constranint</string>
+    <string name="endereco">Endereço</string>
+    <string name="btn_constraint">Layout Constraint</string>
+</resources>

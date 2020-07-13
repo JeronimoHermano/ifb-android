@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadastraImovelActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/text_apresentacao"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:hint="Nome"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:hint="Região"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCadastraImovel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100sp"
+        android:layout_marginTop="20sp"
+        android:text="Cadastrar" />
+
+</LinearLayout>

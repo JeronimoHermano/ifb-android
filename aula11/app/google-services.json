@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "335580793829",
+    "firebase_url": "https://topicos-android.firebaseio.com",
+    "project_id": "topicos-android",
+    "storage_bucket": "topicos-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335580793829:android:842da64da4ec9b86e47d0c",
+        "android_client_info": {
+          "package_name": "br.edu.ifb.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335580793829-pd6nq3jtovjs6913vslh1mvup6s6ui2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1sJ10GjTOTQfQb_u_REA5JReeqR87v80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335580793829-pd6nq3jtovjs6913vslh1mvup6s6ui2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

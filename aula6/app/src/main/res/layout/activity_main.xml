@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/text_apresentacao"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnAbsolute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/absolute_layout" />
+
+    <Button
+        android:id="@+id/btnTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table_layout" />
+
+    <Button
+        android:id="@+id/btnMixed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mixed_layout" />
+
+    <Button
+        android:id="@+id/btnComponenteVisual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/componente_visual" />
+
+    <Button
+        android:id="@+id/btnCadastraImovel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastra_imovel" />
+
+</LinearLayout>

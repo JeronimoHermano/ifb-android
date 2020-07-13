@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnClickLongo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:text="Click longo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:onClick="chamarMetodo"
+        android:text="Usando onClick no xml" />
+
+    <Button
+        android:id="@+id/btnMenuDeContexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu de contexto" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

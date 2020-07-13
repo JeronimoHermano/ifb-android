@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuNovo"
+        android:icon="@drawable/ic_action_novo"
+        android:title="Novo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mnuAlterar"
+        android:icon="@drawable/ic_action_alterar"
+        android:title="Alterar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mnuExcluir"
+        android:icon="@drawable/ic_action_excluir"
+        android:title="Excluir"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mnuPesquisar"
+        android:icon="@drawable/ic_action_pesquisar"
+        android:title="Pesquisar"
+        app:showAsAction="always" />
+</menu>

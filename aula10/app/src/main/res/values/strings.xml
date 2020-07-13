@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppAula10</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="txt_status">Status</string>
+</resources>

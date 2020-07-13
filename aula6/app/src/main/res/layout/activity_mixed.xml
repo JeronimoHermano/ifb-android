@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MixedActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="100dp"
+                android:text="Nome" />
+
+            <EditText
+                android:id="@+id/edtitext1"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="Endereço" />
+
+            <EditText
+                android:id="@+id/edtitext2"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="Número" />
+
+            <EditText
+                android:id="@+id/edtitext3"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="Bairro" />
+
+            <EditText
+                android:id="@+id/edtitext4"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="Cidade" />
+
+            <EditText
+                android:id="@+id/edtitext5"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="Estado" />
+
+            <EditText
+                android:id="@+id/edtitext6"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="CEP" />
+
+            <EditText
+                android:id="@+id/edtitext7"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="130dp"
+                android:text="Profissão" />
+
+            <EditText
+                android:id="@+id/edtitext8"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="Empresa" />
+
+            <EditText
+                android:id="@+id/edtitext9"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="150dp"
+                android:text="Data Início" />
+
+            <EditText
+                android:id="@+id/edtitext10"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="150dp"
+                android:text="Salário" />
+
+            <EditText
+                android:id="@+id/edtitext11"
+                android:layout_width="300dp" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/botao1"
+            android:text="Enviar" />
+    </TableLayout>
+</ScrollView>

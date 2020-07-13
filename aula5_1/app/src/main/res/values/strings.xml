@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppAula5.1</string>
+    <string name="instrucao">Aperte um botão para enviar</string>
+    <string name="enviar_dado">Enviar dados</string>
+    <string name="enviar_objeto">Enviar objeto</string>
+    <string name="enviar_lista_de_objetos">Enviar lista de objetos</string>
+</resources>

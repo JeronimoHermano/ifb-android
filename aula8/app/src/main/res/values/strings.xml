@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AppAula 8 - Usando Adapters</string>
+    <string name="action_settings">Settings</string>
+    <string name="selecao_campus">Selecione o campus</string>
+    <string name="campus_selecionado">Campus selecionado</string>
+    <string name="cadastro_curso">Cadastro de cursos</string>
+    <string name="curso_cadastrado">Cursos cadastrados</string>
+    <string name="observacao">Observação: click no item para remover </string>
+    <string name="hint_usuario">Digite o nome do curso</string>
+    <string name="btn_adicionar">+</string>
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+    <!-- Podemos criar array de strings também -->
+    <string-array name="array_campus">
+        <item>Brasília</item>
+        <item>Gama</item>
+        <item>Estrutural</item>
+        <item>Taguatinga</item>
+    </string-array>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="excluir">Excluir</string>
+    <string name="ajuda">Ajuda</string>
+</resources>

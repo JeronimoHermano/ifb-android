@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppAula6</string>
+    <string name="botao1">Enviar</string>
+    <string name="absolute_layout">Absolute Layout</string>
+    <string name="table_layout">Table Layout</string>
+    <string name="text_apresentacao">Interface do usuário</string>
+    <string name="mixed_layout">Mixed layout</string>
+    <string name="componente_visual">Componente visual</string>
+    <string name="cadastra_imovel">Cadastra imóvel</string>
+</resources>

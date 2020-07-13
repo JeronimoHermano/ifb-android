@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="@string/instrucao"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnEnviarDado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/enviar_dado"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btnEnviarObjeto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@color/colorPrimary"
+        android:text="@string/enviar_objeto" />
+
+
+    <Button
+        android:id="@+id/btnEnviarListaDeObjetos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/enviar_lista_de_objetos"
+        android:textColor="@color/colorAccent" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
